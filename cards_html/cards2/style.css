@@ -93,7 +93,7 @@ body {
     min-height: 100vh;
     width: 100%;
     background: rgba(0, 0, 0,.7);
-    display: none;
+    display:none;
     align-items: center;
     justify-content: center;
 }
@@ -112,7 +112,7 @@ body {
     display: inline-block;
 }
 
-#exit1 {
+.exit {
     position: absolute;
     top: .1rem;
     right: .1rem;
@@ -121,7 +121,7 @@ body {
     font-size: 3.5rem;
 }
 
-#exit1:hover {
+.exit:hover {
     transform: rotate(90deg);
 } 
 
