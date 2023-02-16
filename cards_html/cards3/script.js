@@ -1,3 +1,5 @@
+
+
 var  button = document.getElementById('button');
 
 button.addEventListener('click' , function(){
@@ -5,8 +7,8 @@ button.addEventListener('click' , function(){
     card.classList.toggle('active');
 
     if (card.classList.contains('active')){
-        return button.textContent = 'read less';
+        return button.textContent = ' Fechar ';
     }
 
-    button.textContent = 'read more';
+    button.textContent = 'O que esta incluso ? ';
 });
